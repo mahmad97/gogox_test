@@ -28,7 +28,8 @@ class PostsFeed extends Component {
 
   render() {
     return (
-      <div id="feed">
+      <div id="feed" className="container text-left">
+        <h1 className="mt-2 text-center">Posts Feed</h1>
         {this.state.posts.map((post) => (
           <Post key={post.id} value={post} />
         ))}

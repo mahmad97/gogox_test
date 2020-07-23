@@ -31,7 +31,7 @@ class CommentsSection extends Component {
 
   render() {
     return (
-      <div>
+      <div className="comments mt-2 p-2">
         {this.state.comments.map((comment) => (
           <Comment key={comment.id} value={comment} />
         ))}

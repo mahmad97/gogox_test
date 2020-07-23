@@ -50,8 +50,8 @@ class Post extends Component {
     let user = this.state.user;
 
     return (
-      <div className="mt-2 mb-2 p-2">
-        <h4>{post.title}</h4>
+      <div className="post mt-3 mb-3 p-2">
+        <h5>{post.title}</h5>
         <p>By: {user.email}</p>
         <p>{post.body}</p>
         <button
